@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Simple# 21</title>
+    <!--custom css-->
+    <link rel="stylesheet" href="./style.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--Google charts-->
+    <script 
+    type="text/javascript" 
+    src="https://www.gstatic.com/charts/loader.js">
+    </script>
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <nav>
+            <div class="navbar">
+
+                <div class="logo">
+                    <img src="./images/logo.png">
+                    <span>appsitnow</span>
+                </div>
+
+                <a href="#"><i class="fab fa-dashcube"></i>Dashboard.</a>
+                <a href="#"><i class="far fa-star"></i>Important.</a>
+                <a href="#"><i class="far fa-calendar-alt"></i>Planned</a>
+                <a href="#"><i class="fas fa-list"></i>Tasks</a>
+                <a href="#"><i class="fas fa-spinner"></i>Progress</a>
+
+                <a href="#" class="logout">
+                    <i class="fas fa-sign-out-alt"></i>logout
+                </a>
+            </div>
+        </nav>
+
+        <!--***** main body ***** -->
+        <div class="main-body">
+
+            <div class="header">
+                <span>Welcome back, Admin..</span>
+                <h1>Dashboard</h1>
+            </div>
+
+            <div class="following-wrapper">
+                <!--Card# 1-->
+                <div class="card">
+                    <img src="./images/insta.png">
+                    <h3>124K</h3>
+                    <span>followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+
+                <!--Card# 2-->
+                <div class="card">
+                    <img src="./images/twitter.png">
+                    <h3>311K</h3>
+                    <span>followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+
+                <!--Card# 3-->
+                <div class="card">
+                    <img src="./images/fb.png">
+                    <h3>320K</h3>
+                    <span>followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+
+                <!--Card# 4-->
+                <div class="card">
+                    <img src="./images/whatsapp.png">
+                    <h3>120K</h3>
+                    <span>followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+
+                <!--Card# 5-->
+                <div class="card">
+                    <img src="./images/linkedin.png">
+                    <h3>9K</h3>
+                    <span>followers</span>
+                    <div class="more">
+                        <button>. .</button>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <!--Graph box | start ############################# -->
+            <div class="graphBox">
+                <div id="columnchart_material" style="width: 800px; height: 300px;"></div>
+            </div>
+            <!--Graph box | end ###############################-->
+
+
+        </div> <!--main-body | end-->
+
+        <!--sidebar | start-->
+        <div class="sidebar">
+
+            <div class="item-link">
+                <a href="#" class="active">Activities</a>
+                <a href="#">Online</a>
+            </div>
+
+            <div class="comments">
+                <!--profile# 1-->
+                <div class="box">
+                    <img src="./images/person1.png">
+                    <div class="body-text">
+                        <h4>Ali Basha</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <span>10 min ago</span>
+                    </div>
+                </div>
+
+                <!--profile# 2-->
+                <div class="box">
+                    <img src="./images/person2.png">
+                    <div class="body-text">
+                        <h4>Ahmad Ali</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <span>11 min ago</span>
+                    </div>
+                </div>
+
+                <!--profile# 3-->
+                <div class="box">
+                    <img src="./images/person3.png">
+                    <div class="body-text">
+                        <h4>Ahmad Khalid</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <span>27 min ago</span>
+                    </div>
+                </div>
+
+                <!--profile# 4-->
+                <div class="box">
+                    <img src="./images/person4.jpg">
+                    <div class="body-text">
+                        <h4>Salah Ali Basha</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <span>33 min ago</span>
+                    </div>
+                </div>
+
+                <!--profile# 5-->
+                <div class="box">
+                    <img src="./images/person5.jpg">
+                    <div class="body-text">
+                        <h4>Walid Salah Basha</h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <span>40 min ago</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!--sidebar | end -->
+
+
+    </div>          <!--Wrapper | end -->
+
+    <script src="./app.js"></script>
+</body>
+</html>

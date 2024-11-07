@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background: #e5e5e7;
+}
+
+.wrapper {
+    display: flex;
+}
+
+
+nav 
+{
+    width: 75px;
+    height: 100vh;
+    background: #fff;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+}
+
+
+nav:hover
+{
+    width: 290px;
+}
+
+
+.navbar 
+{
+    padding: 1rem;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+}
+
+.logo 
+{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.logo img 
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.logo span 
+{
+    font-size: 18px;
+    color: rgb(39, 39, 39);
+    font-weight: bold;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.navbar a 
+{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.navbar i 
+{
+    font-size: 1.2rem;
+    color: rgb(104, 103, 103);
+    margin: 0 1.8rem 0 0.3rem;
+}
+
+.navbar a:hover
+{
+    background: rgb(239, 237, 237);
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+}
+
+.logout
+{
+    position: absolute;
+    bottom: 20px;
+}
+
+.logout i 
+{
+    padding-right: 1rem;
+}
+
+/****** main body ******/
+.main-body
+{
+
+    padding: 1.5rem 2rem;
+    width: 100%;
+}
+
+.header h1 
+{
+    margin: 1.3rem 0;
+    color: rgb(68, 68, 68);
+}
+
+.following-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card 
+{
+    padding: 1rem;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.card img
+{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.card h3 
+{
+    font-size: 2rem;
+}
+
+.card span 
+{
+    font-size: 12px;
+    color: gray;
+}
+
+.card .more 
+{
+    display: flex;
+    justify-content: end;
+}
+
+.more button 
+{
+    font-size: 1rem;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card:hover
+{
+    background: #fff;
+    transition: 0.5s ease-out;
+}
+
+
+.sidebar 
+{
+    width: 350px;
+    padding: 2rem;
+    background: #fff;
+}
+
+
+.sidebar .item-link 
+{
+    display: flex;    
+    justify-content: space-between;
+    padding: 1rem;
+    background: #e5e5e7;
+    border-radius: 20%;
+    gap: 10px;
+}
+
+.item-link a
+{
+    padding: 10px 1rem;
+    color: gray;
+}
+
+.item-link a:hover,
+.item-link .active
+{
+    color: #fff;
+    border-radius: 10px;
+    background: rgb(75, 75, 179);
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+.box img 
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.body-text p {
+    font-size: 10px;
+}
+
+.body-text span {
+    font-size: 10px;
+    color: gray;
+}
+
+
+/*****  Graph Box ******/
+.graphBox 
+{
+    background: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
